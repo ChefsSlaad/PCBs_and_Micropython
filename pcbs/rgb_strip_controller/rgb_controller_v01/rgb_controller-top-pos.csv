@@ -1,0 +1,19 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","RGBW_connector","JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical",83.820000,-81.200000,90.000000,top
+"J2","sensor","JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical",83.820000,-93.900000,90.000000,top
+"J3","power_select","PinHeader_1x03_P2.54mm_Vertical",106.680000,-50.800000,0.000000,top
+"PowerIn1","Screw_Terminal_01x02","TerminalBlock_bornier-2_P5.08mm",119.380000,-38.100000,180.000000,top
+"Q1","IRLZ44N","TO-220-3_Vertical",93.980000,-93.980000,90.000000,top
+"Q2","IRLZ44N","TO-220-3_Vertical",93.980000,-81.280000,90.000000,top
+"Q3","IRLZ44N","TO-220-3_Vertical",93.980000,-68.580000,90.000000,top
+"Q4","IRLZ44N","TO-220-3_Vertical",93.980000,-55.880000,90.000000,top
+"R1","330R","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",120.650000,-83.820000,180.000000,top
+"R2","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",99.060000,-93.980000,-90.000000,top
+"R3","330R","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",120.650000,-78.740000,180.000000,top
+"R4","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",99.060000,-81.280000,-90.000000,top
+"R5","330R","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",113.030000,-73.660000,0.000000,top
+"R6","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",99.060000,-68.580000,-90.000000,top
+"R7","330R","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",113.030000,-68.607215,0.000000,top
+"R8","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical",99.060000,-55.880000,-90.000000,top
+"U1","WeMos_D1_mini","WEMOS_D1_mini_light",127.000000,-88.900000,180.000000,top
+"U2","mini-360","buck_converter 16.8x22,14",116.840000,-53.340000,90.000000,top

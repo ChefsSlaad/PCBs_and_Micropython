@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "powered multisensor-rescue")(type "KiCad")(uri "${KIPRJMOD}/powered multisensor-rescue.kicad_sym")(options "")(descr ""))
+)

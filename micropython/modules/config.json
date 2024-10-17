@@ -1,0 +1,68 @@
+{
+  "name": "devicename",
+
+  "network": [
+    { "ssid": "home",
+      "password": "Garuda180"
+    },
+    { "ssid": "marc",
+      "password": "marcisdabomb"
+    },
+    { "ssid": "BonBini",
+      "password": "Rabootje"
+    }
+  ],
+
+  "valid_pins": [0, 2, 4, 5, 12, 13, 14, 15],
+
+  "mqtt_server": {
+    "server_adress": "10.0.0.10"
+    },
+
+  "led_strip": {
+      "type": "led_strip",
+      "state_topic":   "home/woonkamer/gordijn_kort",
+      "command_topic": "home/woonkamer/gordijn_kort/set",
+      "pin": {
+          "red":   15,
+          "green": 13,
+          "blue":  12,
+          "white": 14
+        },
+      "debug": true
+      },
+
+  "switch": {
+      "type": "switch",
+      "state_topic":   "home/woonkamer/schemerlamp",
+      "command_topic": "home/woonkamer/schemerlamp/set",
+      "pin": 5,
+      "high_on": false,
+      "debug": true
+      },
+
+  "button": {
+      "type": "button",
+      "state_topic":   "home/woonkamer/schemerlamp/knop",
+      "pin": 2,
+      "high_on": false,
+      "debug": true
+      },
+
+  "led": {
+      "type": "led",
+      "state_topic":   "home/woonkamer/schemerlamp/led",
+      "command_topic": "home/woonkamer/schemerlamp/led/set",
+      "pin": 0,
+      "high_on": false,
+      "debug": true
+      },
+
+   "sensor": {
+      "type": "binary_sensor",
+      "state_topic": "home/woonkamer/boekenkast/sensor",
+      "pin": 4,
+      "high_on": false,
+      "debug": true
+      }
+}

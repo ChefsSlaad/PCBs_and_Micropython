@@ -1,0 +1,30 @@
+{
+  "name": "devicename",
+
+  "network": [
+    { "ssid": "home",
+      "password": "Garuda180"
+    },
+    { "ssid": "marc",
+      "password": "marcisdabomb"
+    },
+    { "ssid": "BonBini",
+      "password": "Rabootje"
+    }
+  ],
+
+  "mqtt_server": {
+      "server_adress": "10.0.0.1",
+    },
+
+  "led": {
+      "type": "led",
+      "state_topic":   "home/woonkamer/kerstboom",
+      "command_topic": "home/woonkamer/kerstboom/set",
+      "pin": 12,
+      "high_on": false
+
+    }
+}
+
+
